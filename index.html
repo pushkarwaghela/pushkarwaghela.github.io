@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+    <meta name="description" content="Professional portfolio of Pushkar Waghela - Frontend & Backend Developer">
+    <title>Pushkar Waghela | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Cursor Effect -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">PW</a>
+            
+            <div class="nav__menu">
+                <i class="fas fa-times nav__close"></i>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+
+            <!-- Theme Toggle -->
+            <!-- Replace your theme toggle HTML with this -->
+<div class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+    <i class="fas fa-moon"></i>
+    <span class="visually-hidden"></span>
+</div>
+
+            <div class="nav__toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+        <div class="hero__container container grid">
+            <div class="hero__content">
+                <span class="hero__subtitle">Hello, I'm</span>
+                <h1 class="hero__title">Pushkar Waghela</h1>
+                <h2 class="hero__description">Frontend & Backend Developer</h2>
+                <p class="hero__text">I craft exceptional digital experiences focused on performance, accessibility, and pixel-perfect design.</p>
+                
+                <div class="hero__buttons">
+                    <a href="#projects" class="button button--primary">
+                        View My Work <i class="fas fa-arrow-down"></i>
+                    </a>
+                    <a href="#contact" class="button button--secondary">
+                        Contact Me <i class="fas fa-paper-plane"></i>
+                    </a>
+                </div>
+
+                <div class="hero__social">
+
+                    <a href="https://www.linkedin.com/in/pushkar-waghela/" 
+                       class="hero__social-link" 
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="LinkedIn profile (opens in new tab)">
+                       <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://instagram.com/pushkar_vaghela_31" 
+                       class="hero__social-link" 
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Twitter profile (opens in new tab)">
+                       <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/pushkar1315" 
+                       class="hero__social-link" 
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="GitHub profile (opens in new tab)">
+                       <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero__image">
+                <!-- Replace your hero blob with this corrected version -->
+<div class="hero__blob">
+ <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#6366F1" d="M45,-58C58,-48,69,-33,72,-17C75,0,69,18,58,32C47,46,30,55,11,62C-8,70,-30,75,-46,66C-62,57,-71,35,-73,13C-75,-10,-69,-32,-56,-45C-43,-59,-21,-63,-2,-62C17,-60,35,-53,45,-58Z" transform="translate(100 100)"/>
+  </svg>
+                    <img src="https://i.ibb.co/XrCC1PB1/IMG20250608185107-3-1.jpg" alt="Pushkar Waghela" class="hero__img" loading="lazy">
+                </div>
+
+                <div class="hero__data">
+                    <div class="hero__data-item">
+                        <span class="hero__data-number">3rd</span>
+                        <span class="hero__data-text">Year Student</span>
+                    </div>
+                    <div class="hero__data-item">
+                        <span class="hero__data-number">6+</span>
+                        <span class="hero__data-text">Projects Completed</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="about__container container grid">
+            <div class="about__image">
+              <div class="about__blob">
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#10B981" d="M44,-58C57,-51,68,-38,73,-22C78,-7,76,10,68,25C60,39,46,51,30,58C14,66,-4,70,-21,66C-37,62,-52,49,-61,32C-69,15,-71,-5,-65,-21C-58,-37,-44,-50,-30,-57C-16,-63,-1,-64,14,-60C29,-56,58,-46,44,-58Z" transform="translate(100 100)"/>
+  </svg>
+                    <img src="https://i.ibb.co/pjMPYXRp/Scanned-20250614-0921-02.jpg" alt="Pushkar Waghela" class="about__img" loading="lazy">
+                </div>
+            </div>
+
+            <div class="about__content">
+                <h2 class="section__title">About <span>Me</span></h2>
+                <p class="about__description">
+                    I am a passionate programmer, tech enthusiast, and a dedicated Electronics & Computer Engineering
+                    student with a strong foundation in web development. I thrive on exploring new technologies and
+                    continuously enhancing my skills in frontend and backend development. With hands-on experience
+                    in building scalable and user-friendly applications, I am eager to apply my knowledge in real-world
+                    projects, grow through mentorship, and contribute to innovative solutions in a
+                    dynamic environment.
+                </p>
+
+                <div class="about__info">
+                    <div class="about__info-item">
+                        <i class="fas fa-user-tie about__info-icon"></i>
+                        <div>
+                            <span class="about__info-title">Name</span>
+                            <span class="about__info-text">Pushkar Waghela</span>
+                        </div>
+                    </div>
+                    <div class="about__info-item">
+                        <i class="fas fa-envelope about__info-icon"></i>
+                        <div>
+                            <span class="about__info-title">Email</span>
+                            <span class="about__info-text">pushkarwaghela28@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="about__info-item">
+                        <i class="fas fa-map-marker-alt about__info-icon"></i>
+                        <div>
+                            <span class="about__info-title">Location</span>
+                            <span class="about__info-text">Sangamner, Maharashtra</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about__buttons">
+                    <a href="https://drive.google.com/file/d/1phe3DkHpnsv2u6R2SR9i07mDnqrIJlN2/view?usp=sharing" 
+                       class="button button--primary"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Download CV <i class="fas fa-download"></i>
+                    </a>
+                    <a href="#contact" class="button button--secondary">
+                        Collaborate <i class="fas fa-handshake"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <div class="skills__container container">
+            <h2 class="section__title">My <span>Skills</span></h2>
+            <p class="section__subtitle">Technologies I work with</p>
+
+            <div class="skills__content grid">
+                <!-- Technical Skills -->
+                <div class="skills__group">
+                    <h3 class="skills__title">Technical Skills</h3>
+                    
+                    <div class="skills__item">
+                        <div class="skills__header">
+                            <i class="fab fa-html5 skills__icon"></i>
+                            <span class="skills__name">HTML5 & CSS3</span>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__progress" data-width="85%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__item">
+                        <div class="skills__header">
+                            <i class="fab fa-js skills__icon"></i>
+                            <span class="skills__name">JavaScript</span>
+                            <span class="skills__percentage">70%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__progress" data-width="70%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__item">
+                        <div class="skills__header">
+                            <i class="fab fa-node-js skills__icon"></i>
+                            <span class="skills__name">Node.js & Express.js</span>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__progress" data-width="75%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__item">
+                        <div class="skills__header">
+                            <i class="fas fa-database skills__icon"></i>
+                            <span class="skills__name">MongoDB</span>
+                            <span class="skills__percentage">70%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__progress" data-width="70%"></span>
+                        </div>
+                    </div>
+
+                                        <div class="skills__item">
+                        <div class="skills__header">
+                            <i class="fab fa-github skills__icon"></i>
+                            <span class="skills__name">Git & Github</span>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__progress" data-width="75%"></span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Professional Skills -->
+                <div class="skills__group">
+                    <h3 class="skills__title">Professional Skills</h3>
+                    
+                    <div class="skills__item">
+                        <div class="skills__header">
+                            <i class="fas fa-paint-brush skills__icon"></i>
+                            <span class="skills__name">UI/UX Design</span>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__progress" data-width="75%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__item">
+                        <div class="skills__header">
+                            <i class="fas fa-mobile-alt skills__icon"></i>
+                            <span class="skills__name">Responsive Design</span>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__progress" data-width="90%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__item">
+                        <div class="skills__header">
+                            <i class="fas fa-bullseye skills__icon"></i>
+                            <span class="skills__name">Problem Solving</span>
+                            <span class="skills__percentage">80%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__progress" data-width="80%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__item">
+                        <div class="skills__header">
+                            <i class="fas fa-users skills__icon"></i>
+                            <span class="skills__name">Teamwork & Collaboration</span>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__progress" data-width="95%"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__item">
+                        <div class="skills__header">
+                            <i class="fas fa-calendar-check skills__icon"></i>
+                            <span class="skills__name">Time Management</span>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__progress" data-width="90%"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="projects__container container">
+            <h2 class="section__title">Recent <span>Projects</span></h2>
+            <p class="section__subtitle">My latest work</p>
+
+            <div class="projects__content swiper">
+                <div class="swiper-wrapper">
+                    <!-- Project 1 -->
+                    <div class="projects__card swiper-slide">
+                        <div class="projects__image">
+                            <img src="https://i.ibb.co/sJJsB9tb/Screenshot-2025-06-14-191046.png" 
+                                 alt="Custom Portfolio Builder Website" 
+                                 class="projects__img"
+                                 loading="lazy">
+                            <div class="projects__buttons">
+                                <a href="https://finalproject-3.netlify.app/" 
+                                   class="projects__button"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   aria-label="View Portfolio Builder">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="projects__button">
+                                    <i class="fas fa-code"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="projects__data">
+                            <h3 class="projects__name">Custom Portfolio Builder</h3>
+                            <p class="projects__description">
+                                A user-friendly web app to create personalized portfolios dynamically.
+                            </p>   
+                            
+                            <div class="projects__stack">
+                                <span class="projects__stack-item">HTML</span>
+                                <span class="projects__stack-item">CSS</span>
+                                <span class="projects__stack-item">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="projects__card swiper-slide">
+                        <div class="projects__image">
+                            <img src="https://i.ibb.co/mr792dLg/Screenshot-2025-06-19-220758.png" 
+                                 alt="Portfolio Website" 
+                                 class="projects__img"
+                                 loading="lazy">
+                            <div class="projects__buttons">
+                                <a href="#" class="projects__button">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="projects__button">
+                                    <i class="fas fa-code"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="projects__data">
+                            <h3 class="projects__name">Portfolio Website</h3>
+                            <p class="projects__description">
+                                Modern portfolio website with smooth animations and responsive design.
+                            </p>
+                            <div class="projects__stack">
+                                <span class="projects__stack-item">HTML/CSS</span>
+                                <span class="projects__stack-item">JavaScript</span>
+                                <span class="projects__stack-item">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="projects__card swiper-slide">
+                        <div class="projects__image">
+                            <img src="https://i.ibb.co/hxj7d6BV/Screenshot-2025-06-14-191631.png" 
+                                 alt="Smart Merit App" 
+                                 class="projects__img"
+                                 loading="lazy">
+                            <div class="projects__buttons">
+                                <a href="https://studentmerit.netlify.app/" 
+                                   class="projects__button"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   aria-label="View Merit App">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="projects__button">
+                                    <i class="fas fa-code"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="projects__data">
+                            <h3 class="projects__name">Smart Merit App</h3>
+                            <p class="projects__description">
+                                A simple web tool that helps teachers display and sort student results based on merit.
+                            </p>
+                            <div class="projects__stack">
+                                <span class="projects__stack-item">HTML</span>
+                                <span class="projects__stack-item">CSS</span>
+                                <span class="projects__stack-item">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                                        <!-- Project 2 -->
+                    <div class="projects__card swiper-slide">
+                        <div class="projects__image">
+                            <img src="https://i.ibb.co/NnSCmdHq/Screenshot-2025-06-14-200941.png" 
+                                 alt="Advance Calculator" 
+                                 class="projects__img"
+                                 loading="lazy">
+                            <div class="projects__buttons">
+                                <a href="https://advancecalculater.netlify.app/" 
+                                   class="projects__button"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   aria-label="View Calculator">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="projects__button">
+                                    <i class="fas fa-code"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="projects__data">
+                            <h3 class="projects__name">Advance Calculator</h3>
+                            <p class="projects__description">
+                                A smart calculator that simplifies complex operations and minimizes the need to remember formulas.
+                            </p>
+                            <div class="projects__stack">
+                                <span class="projects__stack-item">HTML</span>
+                                <span class="projects__stack-item">CSS</span>
+                                <span class="projects__stack-item">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div><p>Slide for more Projects --></p>
+
+                <!-- Swiper Navigation -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>                            
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+            <div class="contact__content">
+                <h2 class="section__title">Get In <span>Touch</span></h2>
+                <p class="contact__description">
+                    Have a project in mind or want to discuss potential opportunities? Feel free to reach out!
+                </p>
+
+                <div class="contact__info">
+                    <div class="contact__card">
+                        <i class="fas fa-envelope contact__card-icon"></i>
+                        <h3 class="contact__card-title">Email</h3>
+                        <span class="contact__card-data">pushkarvaghela28@gmail.com</span>
+                        <a href="mailto:pushkarwaghela28@gmail.com" class="contact__button">
+                            Write me <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="contact__card">
+                        <i class="fas fa-phone contact__card-icon"></i>
+                        <h3 class="contact__card-title">Phone</h3>
+                        <span class="contact__card-data">+91 9921621239</span>
+                        <a href="tel:+919921621239" class="contact__button">
+                            Call me <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="contact__card">
+                        <i class="fab fa-whatsapp contact__card-icon"></i>
+                        <h3 class="contact__card-title">WhatsApp</h3>
+                        <span class="contact__card-data">+91 9921621239</span>
+                        <a href="https://wa.me/919921621239" 
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="contact__button">
+                            Message me <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+<div class="contact__form">
+    <h3 class="section__subtitle">Send me a message</h3>
+                <form 
+                name="contact" 
+                method="POST" 
+                data-netlify="true" 
+                class="form" 
+                id="contact-form"
+                netlify-honeypot="bot-field"
+            >
+                <!-- Hidden honeypot field for spam protection -->
+                <div class="hidden">
+                    <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+                </div>
+                
+                <!-- Success message redirect (optional) -->
+                <input type="hidden" name="_next" value="/thank-you.html">
+                
+                <!-- Form fields -->
+                <div class="form__group">
+                    <input type="text" name="name" id="name" class="form__input" placeholder=" " required>
+                    <label for="name" class="form__label">Full Name</label>
+                </div>
+
+                <div class="form__group">
+                    <input type="email" name="email" id="email" class="form__input" placeholder=" " required>
+                    <label for="email" class="form__label">Email Address</label>
+                </div>
+
+                <div class="form__group">
+                    <input type="text" name="subject" id="subject" class="form__input" placeholder=" " required>
+                    <label for="subject" class="form__label">Subject</label>
+                </div>
+
+                <div class="form__group form__group--textarea">
+                    <textarea name="message" id="message" class="form__input" placeholder=" " required></textarea>
+                    <label for="message" class="form__label">Your Message</label>
+                </div>
+
+                <button type="submit" class="button button--primary form__button">
+                    Send Message <i class="fas fa-paper-plane"></i>
+                </button>
+
+                <p class="form__message" id="form-message"></p>
+            </form>
+</div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">PW</a>
+                <p class="footer__description">
+                    Frontend Developer & UI Designer creating exceptional digital experiences.
+                </p>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Quick Links</h3>
+                <ul class="footer__links">
+                    <li><a href="#home" class="footer__link">Home</a></li>
+                    <li><a href="#about" class="footer__link">About</a></li>
+                    <li><a href="#skills" class="footer__link">Skills</a></li>
+                    <li><a href="#projects" class="footer__link">Projects</a></li>
+                    <li><a href="#contact" class="footer__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Services</h3>
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">Web Development</a></li>
+                    <li><a href="#" class="footer__link">UI/UX Design</a></li>
+                    <li><a href="#" class="footer__link">Responsive Design</a></li>
+                    <li><a href="#" class="footer__link">Web Consulting</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Follow Me</h3>
+                <div class="footer__social">
+                    <a href="https://www.linkedin.com/in/pushkar-waghela/" 
+                       class="hero__social-link" 
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="LinkedIn profile (opens in new tab)">
+                       <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://instagram.com/pushkar_vaghela_31" 
+                       class="hero__social-link" 
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Twitter profile (opens in new tab)">
+                       <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/pushkar1315" 
+                       class="hero__social-link" 
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="GitHub profile (opens in new tab)">
+                       <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <p class="footer__copy">&copy; <span id="current-year"></span> Pushkar Waghela. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Main JS -->
+    <script src="script.js"></script>
+</body>
+</html>
